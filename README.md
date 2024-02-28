@@ -1,9 +1,10 @@
 # pdf-bookmark
 提示：
-该项目fork自 https://github.com/ifnoelse/pdf-bookmark
-调整点：
-- 改为maven项目
-- pdf书籍可能是扫描版，跟偏移量相减后章节页码可能出现负数，对负数进行了支持
+pdf-bookmark-maven fork自 https://github.com/ifnoelse/pdf-bookmark
+
+调整如下：
+- 1.改为maven项目
+- 2.pdf书籍可能是扫描版，跟偏移量相减后章节页码可能出现负数，优化了对负数章节页码的支持
   ![](./img/img_1.png)
 
 
